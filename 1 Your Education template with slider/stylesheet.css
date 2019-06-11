@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background: #222;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+	color:white;
+}
+/***********************************************header-section*******************************************/
+header
+{
+	padding: 40px 0;
+}
+.logo
+{
+	width:250px;
+}
+.bar
+{
+	border-left: 2px solid #95bd1f;
+}
+header .btn
+{
+	background: #95bd1f;
+}
+.banner img
+{
+	width:100%;
+}
+/***************************************menu**********************************************/
+.navbar-default
+{
+	background: linear-gradient(to bottom, #b2f22d 0%,#b5f233 2%,#c1f253 7%,#c4f259 10%,#c6f26b 24%,#c5f06d 34%,#bde765 39%,#b5e05b 42%,#a7d44a 47%,#86b723 58%,#78a817 63%,#6c9912 69%,#4d6b12 88%,#3f5512 100%);
+	border:none;
+}
+.navbar-default .navbar-nav > li > a
+{
+	color:white;
+}
+.navbar-default .navbar-nav
+{
+	width:100%;
+}
+/*********************************content-section**************************************/
+.left-box h3, .greenlink a
+{
+	color:#95bd1f;
+}
+.read-more
+{
+	border: solid 1px #8d8a8a;
+    background: #5a5858;
+	float:right;
+}
+.greenlink
+{
+	color: #95bd1f;
+}
+.greenlink li a
+{
+	text-decoration: underline;
+}
+.col-sm-8 button
+{
+	float:left;
+	margin-bottom: 40px;
+}
+.content
+{
+	border-bottom: 2px solid #95bd1f;
+}
+/*************************************footer-section****************************************/
+footer
+{
+	padding: 20px 10px;
+}
+.tou,.ps
+{
+	color: #95bd1f;
+	text-decoration: underline;
+}
+.tou
+{
+	padding-right: 2px;
+}
+.ps
+{
+	border-left: 1px solid #95bd1f;
+	padding-left:6px;
+}
+
+
+
+
+
+
+@media(min-width:768px)
+{
+	.navbar-nav li
+		{	
+			border-right: 1px solid #527111;
+			border-left: 1px solid #a9dd39;
+			width:16.6%;
+		}
+}
+@media(max-width:768px)
+{
+	.footer p
+	{
+		text-align:left;
+	}
+}
